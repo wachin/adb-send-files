@@ -26,7 +26,9 @@ And you need to create in your Linux OS in your HOME a folder called:
 adb-linux
 
 
-**Install Total Commander App in your Android device**
+**Install Total Commander App in your Android device**  
 Is necssary install this app because this give us the path to the folder adb-android, example:
+
+
 
 
