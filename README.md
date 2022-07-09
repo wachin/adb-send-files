@@ -9,10 +9,11 @@ https://facilitarelsoftwarelibre.blogspot.com/2020/05/como-copiar-carpetaarchivo
 
 **Download the code**
 
-Clone this repo:
+Clone this repo and enter in this path:
 
 
     git clone https://github.com/wachin/adb-send-files
+    cd adb-send-files
 
 
 **To use it**
@@ -24,6 +25,28 @@ adb-android
 And you need to create in your Linux OS in your HOME a folder called:
 
 adb-linux
+
+# Connect your Android mobile to your Linux PC
+This step is neccesary
+
+
+# Use clex file manager to execute scripts
+Install clex
+
+    sudo apt install clex
+
+now run clex
+
+    clex
+
+you follow the configurations that clex promt, then navigate to the file:
+
+adb-devices.sh
+
+run it give ENTER, this start adb
+
+
+
 
 
 **Install Total Commander App in your Android device**  
