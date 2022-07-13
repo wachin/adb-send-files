@@ -18,7 +18,7 @@ Clone this repo and enter in this path:
 
 **To use it**
 
-You need create in your Android device in your HOME  a folder called:
+You need create in your Android device in your HOME a folder called:
 
 adb-android
 
