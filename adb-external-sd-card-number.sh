@@ -2,18 +2,7 @@
 
 # NAME=$(adb shell sm list-volumes public|awk '{print $3}')
 
-NAME=$(adb shell sm list-volumes public|awk '{print $3}')
-STORAGE1=$("storage/")
-SDCARD=$("/adb-SD-android/")
-
-# path=$("storage/""$NAME" -name "/adb-SD-android/")
-
-# path=$(echo "storage/" "$NAME" echo "/adb-SD-android/")
-
-path=$("$NAME" "$STORAGE1" "$SDCARD")
-
-adb pull "$path" $HOME/adb-linux-$(date '+%Y-%m-%d_%H.%M.%S')/
-
+adb shell sm list-volumes public|awk '{print $3}'
 
 # adb pull storage/"${NAME}"/adb-SD-android/ $HOME/adb-linux-$(date '+%Y-%m-%d_%H.%M.%S')/
 # DEV_NAME=$(zenity --list --title "¿En qué dispositivo se instalará?" --column "Dispositivos disponibles" $(echo "$DEV_LIST" | xargs))
