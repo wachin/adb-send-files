@@ -35,27 +35,6 @@ This step is neccesary
 
 
 # Use clex file manager to execute scripts
-Install clex
-
-    sudo apt install clex
-
-now run clex
-
-    clex
-
-you follow the configurations that clex promt, then navigate to the file:
-
-adb-devices.sh
-
-run it give ENTER, this start adb
-
-
-
-
-
-**Install Total Commander App in your Android device**  
-Is necssary install this app because this give us the path to the folder adb-android, example:
-
 
 
 
