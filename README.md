@@ -47,23 +47,29 @@ This step is neccesary
 # Use clex file manager to execute scripts
 Double clic on the script:
 
-main-run-script.sh
+    main-run-script.sh
 
 then first configure clex (only once is neccesary), from clex execute the script:
 
-adb-devices.sh
+    adb-devices.sh
 
 This script execute adb devices to enable connection betwen Linux and Android
 
 Then you can send or receive files with one of the scripts:
 
-adb-pull-from-Android-to-Linux.sh
-adb-push-from-Linux-to-Android.sh
+    adb-pull-from-Android-to-Linux.sh
+    adb-push-from-Linux-to-Android.sh
 
-if you have a micro SD external Card in your Androi Mobile you need to use this scripts:
 
-adb-pull-from-AndroidSD-to-Linux.sh
-adb-push-from-Linux-to-AndroidSD.sh
+# Use clex filemanager to manage micro SD
+if you have a micro SD external Card in your Androi Mobile you need first use this scripts:
+
+    fix-external-sd-card-id.sh
+
+To fix the identification number of your phone, then you can send and receive files with:
+
+    adb-pull-from-AndroidSD-to-Linux.sh
+    adb-push-from-Linux-to-AndroidSD.sh
 
 
 God Bless
