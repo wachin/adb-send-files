@@ -3,7 +3,8 @@ Copy/Transfer files from Android to PC and from PC to Android with adb, using sc
 
 # Tested in
 
-MX Linux 21
+- MX Linux 21 x386 and SAMSUNG GALAXY J5 Android 6.0.1
+
 
 
 # Requirements
@@ -33,21 +34,21 @@ Clone this repo:
 # Setup to Internal Memory
 You need create in your Android device in your HOME a folder called:
 
-adb-android
+**adb-android**
 
 And you need to create in your Linux OS in your HOME a folder called:
 
-adb-linux
+**adb-linux**
 
 
 # Setup to External micro SD Memory
 You need create in your Android SD device a folder called:
 
-adb-SD-android
+**adb-SD-android**
 
 and in your Linux OS in your HOME the same above folder called:
 
-adb-linux
+**adb-linux**
 
 # Connect your Android mobile to your Linux PC with the USB cable
 This step is totally neccesary
@@ -56,33 +57,33 @@ This step is totally neccesary
 # Use clex file manager to execute scripts
 Open your Linux File Manager and navigate to this folder:
 
-adb-send-files
+**adb-send-files**
 
 If you use Thuar File Manger, right clic on:
 
-**main-run-script.sh**
+    main-run-script.sh
 
 and open with bash. In other Linux File Manager like Dolphin you give one clic and ENTER and propt if you want to execute, the same is for Caja, Nemo File Manager, and search how to do with others
 
 Then from clex select and ENTER in the script:
 
-**adb-devices.sh**
+    adb-devices.sh
 
 This script execute adb devices to enable connection betwen Linux and Android
 
 Then you can send or receive files with one of the scripts:
 
-**adb-pull-from-Android-to-Linux.sh**
+    adb-pull-from-Android-to-Linux.sh
 
-**adb-push-from-Linux-to-Android.sh**
+    adb-push-from-Linux-to-Android.sh
 
 
 # Use clex filemanager to manage micro SD
 You can send or receive files from micro SD with one of the scripts:
 
-**adb-pull-from-AndroidSD-to-Linux.sh**
+    adb-pull-from-AndroidSD-to-Linux.sh
     
-**adb-push-from-Linux-to-AndroidSD.sh**
+    adb-push-from-Linux-to-AndroidSD.sh
 
 
 God Bless
