@@ -1,7 +1,9 @@
 #! /bin/bash
 
-NAME=`adb shell sm list-volumes public|awk '{print $3}'`
-adb pull "/storage/""${NAME}""/adb-SD-android/" $HOME/adb-linux-$(date '+%Y-%m-%d_%H.%M.%S')/
+EXTERNALSTORAGE=`adb shell sm list-volumes public|awk '{print $3}'`
+
+
+adb pull @"/storage/"$EXTERNALSTORAGE/"adb-SD-android"@ $HOME/adb-linux-$(date '+%Y-%m-%d_%H.%M.%S')/
 
 
 

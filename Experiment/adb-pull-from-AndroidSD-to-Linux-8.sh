@@ -3,14 +3,14 @@
 # NAME=$(adb shell sm list-volumes public|awk '{print $3}')
 
 NAME=$(adb shell sm list-volumes public|awk '{print $3}')
-STORAGE1=$("storage/")
-SDCARD=$("/adb-SD-android/")
+text1="storage/"
+text2="/adb-SD-android/"
 
 # path=$("storage/""$NAME" -name "/adb-SD-android/")
 
 # path=$(echo "storage/" "$NAME" echo "/adb-SD-android/")
 
-path=$("$NAME""$STORAGE1""$SDCARD")
+path=$("$text1""$NAME""$text2")
 
 adb pull "$path" $HOME/adb-linux-$(date '+%Y-%m-%d_%H.%M.%S')/
 

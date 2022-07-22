@@ -7,6 +7,10 @@ This is and idea under construction from:
 https://facilitarelsoftwarelibre.blogspot.com/2020/05/como-copiar-carpetaarchivo-desde.html
 
 
+# Requirements
+
+sudo apt install git perl clex
+
 **Download the code**
 
 Clone this repo and enter in this path:
