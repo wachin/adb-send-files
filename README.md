@@ -59,11 +59,18 @@ Open your Linux File Manager and navigate to this folder:
 
 **adb-send-files**
 
-If you use Thuar File Manger, right clic on:
+If you use Thunar File Manger, right clic on:
 
     main-run-script.sh
 
-and open with bash. In other Linux File Manager like Dolphin you give one clic and ENTER and propt if you want to execute, the same is for Caja, Nemo File Manager, and search how to do with others
+and open it with bash
+
+
+
+ In other Linux File Manager like Dolphin you give one clic and ENTER and propt if you want to execute, the same is for Caja, Nemo File Manager, and search how to do with others
+
+now 
+
 
 Then from clex select and ENTER in the script:
 
