@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=adb-send-files
+Exec=gnome-terminal --tab --title="tab 1" --working-directory /home/wachin/AppsLinux/adb-send-files/ --command="bash -c 'clex; $SHELL'"
+Icon=utilities-x-terminal
+Terminal=false
+
+
+# Opening new gnome-terminal (v3.28+) with multiple tabs and different commands
+# https://unix.stackexchange.com/a/653441/312968

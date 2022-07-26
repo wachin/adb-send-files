@@ -1,6 +1,6 @@
 #!/bin/sh
 
-gnome-terminal --tab --title="tab 1" --command="bash -c 'clex; $SHELL'"
+gnome-terminal --tab --title="adb-send-files" --command="bash -c 'clex; $SHELL'"
 
 
 ## Requerimientos, tener instalado clex y gnome-terminal y abierta la terminal gnome
