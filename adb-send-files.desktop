@@ -2,7 +2,7 @@
 [Desktop Entry]
 Type=Application
 Name=adb-send-files
-Exec=gnome-terminal --tab --title="tab 1" --working-directory /home/wachin/AppsLinux/adb-send-files/ --command="bash -c 'clex; $SHELL'"
+Exec=gnome-terminal --tab --title="adb-send-files" --working-directory USERX/ --command="bash -c 'clex; $SHELL'"
 Icon=utilities-x-terminal
 Terminal=false
 

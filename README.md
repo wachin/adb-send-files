@@ -14,7 +14,7 @@ On Linux install dependencies:
 
     sudo apt install git perl clex adb gnome-terminal bash
 
-A Linux File manager configured to open scripts .sh 
+
 
 
 # Enabling USB Debugging on the Android Device
@@ -25,10 +25,17 @@ https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_de
 yo need to enable USB Debugging, to each Android phone is diferent, yo need to search in Google
 
 
-# Download the code
-Clone this repo:
+# Download and install the code
+In a terminal set this:
 
+    mkdir -p AppsLinux
+    cd AppsLinux
     git clone https://github.com/wachin/adb-send-files
+    cd adb-send-files
+    ./set_launcher_path.sh
+    cp adb-send-files.desktop $HOME/.local/share/applications/
+    mv adb-send-files.desktop set_launcher_path.sh img/ && cd   
+    echo "God Bless You"    
 
     
 # Setup to Internal Memory
@@ -54,7 +61,7 @@ and in your Linux OS in your HOME the same above folder called:
 This step is totally neccesary
 
 
-# Use clex file manager to execute scripts
+# Manually open clex file manager to execute scripts (optional)
 Open your Linux File Manager and navigate to this folder:
 
 **adb-send-files**
@@ -65,6 +72,7 @@ If you use Thunar File Manger, right clic on:
 
 and open it with bash
 
+A Linux File manager configured to open scripts .sh 
 
 
  In other Linux File Manager like Dolphin you give one clic and ENTER and propt if you want to execute, the same is for Caja, Nemo File Manager, and search how to do with others
