@@ -133,13 +133,34 @@ command. Then hit Enter again
 Now yo need to see what do you want to do
 
 
+## To send files from Linux to Android
+ Clic in:
+ 
+adb-push-from-Linux-to-Android.sh
 
+
+## To send files from  Android to Linux
+Clic in:
+
+adb-pull-from-Android-to-Linux.sh
+
+
+## To send files from Linux to Android micro SD Card
+ Clic in:
+ 
+adb-push-from-Linux-to-AndroidSD.sh 
+
+
+## To send files from  Android micro SD Card to Linux
+Clic in:
+
+adb-pull-from-AndroidSD-to-Linux.sh
 
 
 
 
 # Manually open clex file manager to execute scripts (optional)
-Open your Linux File Manager and navigate to this folder:
+Perhaps you want to do this. Open your Linux File Manager and navigate to this folder:
 
 **adb-send-files**
 
@@ -147,35 +168,19 @@ If you use Thunar File Manger, right clic on:
 
     main-run-script.sh
 
-and open it with bash
+and open it with bash, if bash not appear you need to write that in the options:
 
-A Linux File manager configured to open scripts .sh 
+Right clic in the script /  Properties / Open with / othe application / Use personalized order / 
 
+in that write:
 
- In other Linux File Manager like Dolphin you give one clic and ENTER and propt if you want to execute, the same is for Caja, Nemo File Manager, and search how to do with others
+bash
 
-now 
+Apply
 
+The Linux File manager need to be configured to open scripts .sh 
 
-Then from clex select and ENTER in the script:
-
-    adb-devices.sh
-
-This script execute adb devices to enable connection betwen Linux and Android
-
-Then you can send or receive files with one of the scripts:
-
-    adb-pull-from-Android-to-Linux.sh
-
-    adb-push-from-Linux-to-Android.sh
-
-
-# Use clex filemanager to manage micro SD
-You can send or receive files from micro SD with one of the scripts:
-
-    adb-pull-from-AndroidSD-to-Linux.sh
-    
-    adb-push-from-Linux-to-AndroidSD.sh
+ In other Linux File Manager like Dolphin you hit ENTER and propt if you want to execute, the same is for Caja, Nemo File Manager, and search how to do with others
 
 
 # Clex tutorials
