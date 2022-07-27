@@ -134,29 +134,50 @@ Now yo need to see what do you want to do
 
 
 ## To send files from Linux to Android
- Clic in:
+ Copy some files or folder with files in your Linux Home folder:
+
+adb-linux 
+
+then clic in:
  
 adb-push-from-Linux-to-Android.sh
 
+now check your home Android, appear a new folder with your files or folder with files
+
 
 ## To send files from  Android to Linux
-Clic in:
+ Copy some files or folder with files in your Android Home folder:
+ 
+adb-android
+ 
+then clic in:
 
 adb-pull-from-Android-to-Linux.sh
 
+now check your home Linux, appear a new folder with your files or folder with files
+
 
 ## To send files from Linux to Android micro SD Card
- Clic in:
+Copy some files or folder with files in your Linux Home folder:
+
+adb-linux 
+
+then clic in:
  
 adb-push-from-Linux-to-AndroidSD.sh 
 
+now check the storage of the micro SD Card in Android, appear a new folder with your files or folder with files
 
 ## To send files from  Android micro SD Card to Linux
-Clic in:
+Copy some files or folder with files in your micro SD Card in Android folder:
+ 
+adb-android
+ 
+then clic in:
 
 adb-pull-from-AndroidSD-to-Linux.sh
 
-
+now check your home Linux, appear a new folder with your files or folder with files
 
 
 # Manually open clex file manager to execute scripts (optional)
