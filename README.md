@@ -55,7 +55,7 @@ This is only if you have a micro SD Card extra in your phone, You need create in
 
 **adb-SD-android**
 
-and in your Linux OS in your HOME the same above folder called:
+and in your Linux OS in your HOME the same folder mentioned above:
 
 **adb-linux**
 
