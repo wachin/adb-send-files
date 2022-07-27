@@ -189,7 +189,7 @@ If you use Thunar File Manger, right clic on:
 
     main-run-script.sh
 
-and open it with bash, if bash not appear you need to write that in the options:
+and open it with bash. If bash not appear you need to write that in the options:
 
 Right clic in the script /  Properties / Open with / othe application / Use personalized order / 
 
@@ -217,7 +217,7 @@ clex: Simplified file management | Inconsolation
 God Bless
 
 
-This is and idea from:
+This is an idea from:
 
 **Copiar carpeta/archivos desde Android a Linux & Linux a Android con adb (por cable USB)**  
 https://facilitarelsoftwarelibre.blogspot.com/2020/05/como-copiar-carpetaarchivo-desde.html
