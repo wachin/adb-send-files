@@ -5,6 +5,10 @@ Copy/Transfer files from Android to Linux PC and from Linux PC to Android with a
 
 - [MX Linux 21](https://sourceforge.net/projects/mx-linux/files/Final/) x386 and SAMSUNG GALAXY J5 Android 6.0.1
 
+# Usage
+- If you use scrcpy to control your phone trough adb, this is a great metod to transfer files
+- Or perhaps you can't transfer files in your Linux with the default mount options
+- Or other reason
 
 # Requirements
 Is neccesary Android 6 and above
@@ -16,9 +20,9 @@ On Linux install dependencies:
 # Enabling USB Debugging on the Android Device
 In your Android mobile you need enable USB Debugging like this:
 
-https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_debugging_on_an_android_device.html 
+[https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_debugging_on_an_android_device.html](https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_debugging_on_an_android_device.html) 
 
-Note: To each Android phone is diferent, yo need to search in Google to match your phone
+**Note:** To each Android phone is diferent, yo need to search in Google to match your phone
 
 
 # Download and install the code
@@ -80,19 +84,19 @@ something very important appears, a little tutorial:
 CLEX configuration utility
 ==========================
 
-End of options mark '--' is supported
-Pager program: less
-Text editor: vim
+End of options mark '--' is supported  
+Pager program: less  
+Text editor: vim  
 
-=== BEGIN ==================
-CMD_F3=less -- $f
-CMD_F4=vim -- $f
-CMD_F5=cp -ir -- $f $2
-CMD_F6=mv -i -- $f $2
-CMD_F7=mkdir -- 
-CMD_F8=rm -- $f
-CMD_F9=lpr -- $f
-=== END ====================
+=== BEGIN ==================  
+CMD_F3=less -- $f  
+CMD_F4=vim -- $f  
+CMD_F5=cp -ir -- $f $2  
+CMD_F6=mv -i -- $f $2  
+CMD_F7=mkdir --   
+CMD_F8=rm -- $f  
+CMD_F9=lpr -- $f  
+=== END ====================  
 
 I don't use those instructions, but maybe they could be useful to you, for one thing, there they are
 
@@ -207,18 +211,17 @@ The Linux File manager need to be configured to open scripts .sh
 # Clex tutorials
 Perhaps you need:
 
-Help topics
+Help topics  
 [http://www.clex.sk/help/MAIN.html](http://www.clex.sk/help/MAIN.html)
 
-clex: Simplified file management | Inconsolation
+clex: Simplified file management | Inconsolation  
 [https://inconsolation.wordpress.com/2013/07/20/clex-simplified-file-management/
 ](https://inconsolation.wordpress.com/2013/07/20/clex-simplified-file-management/)
 
-God Bless
+**God Bless**
 
-
-This is an idea from:
+This is an idea from:  
 
 **Copiar carpeta/archivos desde Android a Linux & Linux a Android con adb (por cable USB)**  
-https://facilitarelsoftwarelibre.blogspot.com/2020/05/como-copiar-carpetaarchivo-desde.html
+[https://facilitarelsoftwarelibre.blogspot.com/2020/05/como-copiar-carpetaarchivo-desde.html](https://facilitarelsoftwarelibre.blogspot.com/2020/05/como-copiar-carpetaarchivo-desde.html)
 

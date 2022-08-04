@@ -22,3 +22,10 @@ gnome-terminal --tab --title="adb-send-files" --command="bash -c 'clex; $SHELL'"
 # ls = 'l'i's't contents of this directory
 # $SHELL = this cryptic tidbit is required to keep the shell open so you can work with it. If you want the shell to open, run your command, then close, simply remove this part. I, however, want the tab to stay open so I can go make programming magic. :)
 # we then start back over at the --tab part to produce tab 2, then again for tab 3. Customize to your heart's content.
+#
+# linux - Gnome-Terminal, how to start in a different directory? - Stack Overflow
+# https://stackoverflow.com/questions/844677/gnome-terminal-how-to-start-in-a-different-directory
+# https://stackoverflow.com/a/844704/10648253
+# If you start gnome-terminal like gnome-terminal --working-directory=myfolder 
+# it will start with the working directory at ~/myfolder so you could add a new 
+# entry to your menu to use that command instead of the other one.
